@@ -34,14 +34,30 @@ public class LoginTest {
         Assert.assertEquals(2,2);
     }
     @Test
-    public void test4(){
+    public void test44(){
         System.out.println("Running Test Case 4");
         Assert.assertEquals("Kevin","Kevin");
     }
     @Test
-    public void test5(){
+    public void test55(){
         System.out.println("Running Test Case 5");
         Assert.assertEquals(5,5);
     }
+    @Test
+    public void test66(){
+        System.out.println("Running Test Case 3");
+        Assert.assertEquals(2,2);
+    }
+    @Test
+    public void test444(){
+        System.out.println("Running Test Case 4");
+        Assert.assertEquals("Kevin","Kevin");
+    }
+    @Test
+    public void test555(){
+        System.out.println("Running Test Case 5");
+        Assert.assertEquals(5,5);
+    }
+
 
 }
