@@ -43,5 +43,16 @@ public class PlaceOrderTest {
         System.out.println("Running Test Case 5");
         Assert.assertEquals(5,5);
     }
+    @Test
+    public void test31(){
+        System.out.println("Running Test Case 31");
+        Assert.assertEquals(2,2);
+    }
+    @Test
+    public void test41(){
+        System.out.println("Running Test Case 41");
+        Assert.assertEquals("Kevin","Kevin");
+
+    }
 
 }
