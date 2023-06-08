@@ -43,5 +43,30 @@ public class RegisterTest {
         System.out.println("Running Test Case 5");
         Assert.assertEquals(5,5);
     }
+    @Test
+    public void test123(){
+        System.out.println("Running Test Case 1");
+        Assert.assertTrue(1 == 1);
+    }
+    @Test
+    public void test235(){
+        System.out.println("Running Test Case 2");
+        Assert.assertEquals("Hello", "Hello");
+    }
+    @Test
+    public void test356(){
+        System.out.println("Running Test Case 3");
+        Assert.assertEquals(2,2);
+    }
+    @Test
+    public void test465(){
+        System.out.println("Running Test Case 4");
+        Assert.assertEquals("Kevin","Kevin");
+    }
+    @Test
+    public void test556(){
+        System.out.println("Running Test Case 5");
+        Assert.assertEquals(5,5);
+    }
 
 }
